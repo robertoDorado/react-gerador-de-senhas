@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls-limit {
+  display: flex;
+}
+
+.controls-limit input {
+  flex-grow: 1;
+}
+
+.container-password {
+  margin: 1rem 0;
+  position: absolute;
+  left: 40%;
+}
+
+.container-password span {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.class-letters {
+  color: rgb(97, 97, 97);
+}
+
+.class-numbers {
+  color: rgb(42, 7, 241);
+}
+
+.class-special-chars {
+  color: rgb(241, 7, 7);
+}
+
+.wrap-save-btn {
+  display: flex;
+  justify-content: center;
+  margin:5rem;
+}
+
+.save-btn {
+  padding: 0.5rem 5rem;
+  background-color: #005cc8;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0.2rem solid #dddddd;
+  box-shadow: 2px 5px 13px 4px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.wrap-message {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.message {
+  font-weight: bold;
+  color: green;
+}
